@@ -1,0 +1,55 @@
+/** Media queries height & width */
+@mixin width-sm {
+    @media (max-width: 576px) {
+      @content;
+    }
+  }
+  @mixin width-md {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+  @mixin width-lg {
+    @media (max-width: 992px) {
+      @content;
+    }
+  }
+  
+  @mixin width-xl {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
+  
+  @mixin width-xxl {
+    @media (max-width: 1400px) {
+      @content;
+    }
+  }
+  
+  @mixin height-sm {
+    @media (max-height: 576px) {
+      @content;
+    }
+  }
+  @mixin height-md {
+    @media (max-height: 768px) {
+      @content;
+    }
+  }
+  @mixin height-lg {
+    @media (max-height: 960px) {
+      @content;
+    }
+  }
+  @mixin height-xl {
+    @media (max-height: 1200px) {
+      @content;
+    }
+  }
+  
+  @mixin height-xxl {
+    @media (max-height: 1400px) {
+      @content;
+    }
+  }

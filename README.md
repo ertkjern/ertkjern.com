@@ -1,5 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Simple website for ertkjern.com needed for various reasons. Simple web app created using nextjs and scss (just because why not?).
 ## Getting Started
 
 First, run the development server:
