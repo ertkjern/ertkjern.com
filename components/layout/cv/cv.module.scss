@@ -1,0 +1,13 @@
+.heading{
+    font-size: $fontSize700;
+    font-weight: 400;
+}
+
+.subHeading{
+    font-size: $fontSize600;
+    font-weight: 400;
+    &:not(:first-of-type){
+        margin-top: $spacing500;
+    }
+}
+

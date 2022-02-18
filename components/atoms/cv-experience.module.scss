@@ -1,0 +1,35 @@
+.col{
+    margin-bottom: $spacing500;
+}
+
+.imageWrapper{
+    width: 150px;
+    padding: $spacing200;
+    position: relative;
+    text-align: left;
+}
+
+.experienceName{
+    font-size: $fontSize400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.experienceDuration{
+    font-size: $fontSize200;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+.experienceTitle{
+    font-size: $fontSize300;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+.cv{
+    width: 100%;
+    margin: auto;
+}

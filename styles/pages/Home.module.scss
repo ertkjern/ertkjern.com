@@ -1,5 +1,6 @@
 
 .main{
+  color: white;
   .headerVideo{
     object-fit: cover;
     width: 100vw;
@@ -9,11 +10,14 @@
     left: 0;
   }
   .text{
+    font-family: 'Roboto';
     position: relative;
-    text-align: center;
-    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 900;
     width: 100%;
-    height: 100%;
+    height: 65vh;
     background-color: black;
     font-weight: 900;
     font-size: 15vw;
@@ -24,13 +28,17 @@
     }
   }
   .navigation{
+    position: relative;
+    margin-top: -5px;
+    padding-top: 5px;
+    height: 36vh;
     background-color: black;
+    text-align: center;
     a{
-      color: white;
-      font-size: 22px;
+      font-size: $fontSize600;
       font-weight: 300;
-      margin-left: 35px;
-      margin-right: 35px;
+      margin-left: 5%;
+      margin-right: 5%;
     }
   }
 }

@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import styles from '../styles/Home.module.scss';
+import CV from '../components/layout/cv/cv';
+import styles from '../styles/pages/Home.module.scss';
 
 const Home: NextPage = () => {
   return (
@@ -25,11 +26,12 @@ const Home: NextPage = () => {
           <source src="/video/waves.mp4" type="video/mp4" />
         </video>
         <div className={styles.text}>ERTKJERN</div>
-        <nav className={styles.navigation}>
+        <div className={styles.navigation}>
           <a>CV</a>
-          <a>Projects</a>
+          <a><span>Proj</span><span>ects</span></a>
           <a>About</a>
-        </nav>
+        </div>
+        <CV />
       </main>
     </>
   );
