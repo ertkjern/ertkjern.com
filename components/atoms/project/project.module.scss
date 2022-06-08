@@ -2,9 +2,14 @@
     margin-bottom: $spacing500;
     max-width: 350px;
     margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
     @include width-lg{
         text-align: center;
-        margin: auto;
+        align-items: center;
+        
     }
 }
 
@@ -22,6 +27,7 @@
 }
 
 .projectTitle{
+    height: 75px;
     font-size: $fontSize300;
     font-weight: 300;
 }

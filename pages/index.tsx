@@ -35,19 +35,19 @@ const Home: NextPage = () => {
           </div>
 
         <div className={styles.navigation}>
+        <Link href="/#projects">
+          <a>Prosjekt</a>
+        </Link>
         <Link href="/#CV">
           <a>CV</a>
         </Link>
-        <Link href="/#projects">
-          <a>Projects</a>
-        </Link>
         <Link href="/#about">
-          <a>About</a>
+          <a>Om</a>
         </Link>
         </div>
         <div className={styles.mainContent}>
-          <CV />
           <Projects />
+          <CV />
         </div>
       </main>
     </>

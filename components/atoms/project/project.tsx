@@ -11,7 +11,7 @@ interface ProjectProps{
 
 const Project = ({name, url, shortDescription, image}: ProjectProps) => {
   return (
-    <div className={`${styles.col} col-sm-12 col-md-6 col-lg-4`}>
+    <div className={styles.col}>
     {image && 
       <div className={styles.imageWrapper}>
         <Image width={150} height={150} src={image.src} alt={image.alt} />

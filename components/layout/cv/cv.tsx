@@ -4,8 +4,8 @@ import CVExperience from '../../atoms/cv-experience/cv-experience';
 const CV = () => {
   return (
     <div id="CV" className="container">
-      <h2 className={styles.heading}>Curriculum Vitae</h2>
-      <h3 className={styles.subHeading}>Work experience</h3>
+      <h2 className={styles.heading}>CV</h2>
+      <h3 className={styles.subHeading}>Arbeidserfaring</h3>
       <div className="row justify-content-between">
         <CVExperience
           name="Adventure Tech / Go Fjords"
@@ -42,7 +42,7 @@ const CV = () => {
           }}
         />
       </div>
-      <h3 className={styles.subHeading}>Education</h3>
+      <h3 className={styles.subHeading}>Utdannelse</h3>
       <div className="row">
         <CVExperience
           name="Handelshøyskolen i Bergen (BI)"

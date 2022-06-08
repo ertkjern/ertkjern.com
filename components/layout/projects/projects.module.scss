@@ -1,14 +1,22 @@
+.projects{
+    margin-bottom: 35vh;
+}
+
 .heading{
     font-size: $fontSize700;
     font-weight: 400;
 }
 
-.subHeading{
+.projectsWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.description{
     font-size: $fontSize500;
     font-weight: 300;
-    text-decoration: underline;
-    &:not(:first-of-type){
-        margin-top: $spacing600;
-    }
+   
 }
 

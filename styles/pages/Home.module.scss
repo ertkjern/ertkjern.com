@@ -37,8 +37,8 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    span:last-child{
-      margin-top: -55px;
+    span:not(:first-of-type){
+      margin-top: -35px;
     }
     @include width-lg{
       display: flex;
@@ -61,6 +61,8 @@
   }
 
   .mainContent{
+    background-image: linear-gradient(black, #06176b);
+
     @include width-lg{
       padding: 35px;
       margin: auto;
