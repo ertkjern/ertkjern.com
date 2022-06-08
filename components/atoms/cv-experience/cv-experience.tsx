@@ -45,7 +45,7 @@ const CVExperience = ({
     <div className={`${styles.col} col-sm-12 col-md-6 col-lg-4`}>
       {image && 
         <div className={styles.imageWrapper}>
-          <Image width={340} height={92} src={image.src} alt={image.alt} />
+          <Image width={340} height={92} src={image.src} alt={image.alt} loading="eager" /> {/** Small image sizes anyways. Just load at once */}
         </div>
       }
       <h4 className={styles.experienceName}>{name}</h4>

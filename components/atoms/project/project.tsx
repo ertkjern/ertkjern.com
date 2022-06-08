@@ -14,7 +14,7 @@ const Project = ({name, url, shortDescription, image}: ProjectProps) => {
     <div className={styles.col}>
     {image && 
       <div className={styles.imageWrapper}>
-        <Image width={150} height={150} src={image.src} alt={image.alt} />
+        <Image width={150} height={150} src={image.src} alt={image.alt} loading="eager" /> {/** Small image sizes anyways. Just load at once */}
       </div>
     }
     <h4 className={styles.projectName}>{name}</h4>
