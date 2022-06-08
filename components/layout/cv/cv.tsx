@@ -1,9 +1,9 @@
 import styles from './cv.module.scss';
-import CVExperience from '../../atoms/cv-experience';
+import CVExperience from '../../atoms/cv-experience/cv-experience';
 
 const CV = () => {
   return (
-    <div className="container">
+    <div id="CV" className="container">
       <h2 className={styles.heading}>Curriculum Vitae</h2>
       <h3 className={styles.subHeading}>Work experience</h3>
       <div className="row justify-content-between">
@@ -14,7 +14,7 @@ const CV = () => {
           jobTitle="Senior software developer"
           jobType="Full Time"
           image={{
-            src: '/images/adventuretech.svg',
+            src: '/images/cv/adventuretech.svg',
             alt: 'Adventure tech logo',
           }}
         />
@@ -25,7 +25,7 @@ const CV = () => {
           jobTitle="UX Developer"
           jobType="Full Time"
           image={{
-            src: '/images/evry.svg',
+            src: '/images/cv/evry.svg',
             alt: 'Evry logo',
           }}
         />
@@ -37,7 +37,7 @@ const CV = () => {
           jobTitle="Software Developer"
           jobType="Full Time"
           image={{
-            src: '/images/knowit.svg',
+            src: '/images/cv/knowit.svg',
             alt: 'Knowit logo',
           }}
         />
@@ -51,7 +51,7 @@ const CV = () => {
           jobTitle="Project Management"
           jobType=""
           image={{
-            src: '/images/bi.svg',
+            src: '/images/cv/bi.svg',
             alt: 'School of economics BI Logo',
           }}
         />
@@ -63,7 +63,7 @@ const CV = () => {
           jobTitle="Master Degree"
           jobType=""
           image={{
-            src: '/images/uib.svg',
+            src: '/images/cv/uib.svg',
             alt: 'University of Bergen logo',
           }}
         />
@@ -75,7 +75,7 @@ const CV = () => {
           jobTitle="Bachelor Degree"
           jobType="Student"
           image={{
-            src: '/images/uia.svg',
+            src: '/images/cv/uia.svg',
             alt: 'University of Agder logo',
           }}
         />

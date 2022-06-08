@@ -4,7 +4,7 @@ import differenceInYears from 'date-fns/differenceInYears';
 import isSameDay from 'date-fns/isSameDay';
 import format from 'date-fns/format';
 import styles from './cv-experience.module.scss';
-import { Image as IImage } from '../../interfaces/image';
+import { Image as IImage } from '../../../interfaces/image';
 
 interface ICVExperience {
   name: string;
