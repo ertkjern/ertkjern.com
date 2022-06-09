@@ -30,8 +30,8 @@ const Home: NextPage = () => {
         </video>
         <div className={`${styles.text} ${styles.largeText}`}>ERTKJERN</div>
         <div className={`${styles.text} ${styles.smallText}`}>
-          <span>ERTK</span>
-          <span>JERN</span>
+          <span>ERT</span>
+          <span>KJERN</span>
           </div>
 
         <div className={styles.navigation}>

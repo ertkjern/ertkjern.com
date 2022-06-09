@@ -14,7 +14,13 @@ const Project = ({name, url, shortDescription, image}: ProjectProps) => {
     <div className={styles.col}>
     {image && 
       <div className={styles.imageWrapper}>
-        <Image width={150} height={150} src={image.src} alt={image.alt} loading="eager" /> {/** Small image sizes anyways. Just load at once */}
+        <Image 
+          width={150}
+          height={150}
+          src={image.src}
+          alt={image.alt} 
+          loading="eager"
+        /> {/** Small image sizes anyways. Just load eager at once */}
       </div>
     }
     <h4 className={styles.projectName}>{name}</h4>
@@ -22,7 +28,7 @@ const Project = ({name, url, shortDescription, image}: ProjectProps) => {
     <p className={styles.projectTitle}>
       {shortDescription}
     </p>
-    <a href={url}>Read more</a>
+    <a className="url" href={url}>Last ned</a>
   </div>
   );
 };
