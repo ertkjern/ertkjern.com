@@ -23,7 +23,7 @@ const CV = () => {
           fromDate={new Date('01/01/2017')}
           toDate={new Date('01/08/2019')}
           jobTitle="UX Utvikler"
-          jobType="Full Time"
+          jobType="Fulltid"
           image={{
             src: '/images/cv/evry.svg',
             alt: 'Evry logo',

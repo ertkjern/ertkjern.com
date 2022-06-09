@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
+import About from '../components/layout/about/about';
 import CV from '../components/layout/cv/cv';
 import Projects from '../components/layout/projects/projects';
 import styles from '../styles/pages/Home.module.scss';
@@ -52,6 +53,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className={styles.mainContent}>
+          <About />
           <Projects />
           <CV />
         </div>
