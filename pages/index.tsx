@@ -35,15 +35,21 @@ const Home: NextPage = () => {
           </div>
 
         <div className={styles.navigation}>
-        <Link href="/#projects">
-          <a>Prosjekt</a>
-        </Link>
-        <Link href="/#CV">
-          <a>CV</a>
-        </Link>
-        <Link href="/#about">
-          <a>Om</a>
-        </Link>
+          <div className={styles.navigationLinkWrapper}>
+            <Link href="/#projects">
+              <a>Prosjekt</a>
+            </Link>
+          </div>
+          <div className={styles.navigationLinkWrapper}>
+            <Link href="/#CV">
+              <a>CV</a>
+            </Link>
+          </div>
+          <div className={styles.navigationLinkWrapper}>
+            <Link href="/#about">
+              <a>Om</a>
+            </Link>
+          </div>
         </div>
         <div className={styles.mainContent}>
           <Projects />
