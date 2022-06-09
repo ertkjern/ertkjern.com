@@ -53,3 +53,9 @@
       @content;
     }
   }
+
+  @mixin width-and-height-lg {
+    @media (max-height: 600px) and (max-width: 992px) {
+      @content;
+    }
+  }

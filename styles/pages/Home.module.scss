@@ -29,6 +29,9 @@
     @include width-lg{
       display: none;
     }
+    @include width-and-height-lg{
+      display: flex;
+    }
   }
 
   .smallText{
@@ -45,6 +48,9 @@
     @include width-lg{
       display: flex;
     }
+    @include width-and-height-lg{
+      display: none;
+    }
   }
 
   .navigation{
@@ -52,7 +58,7 @@
     display: flex;
     justify-content: center;
     height: 36vh;
-    margin-top: -10px;
+    margin-top: -15px;
     padding-top: 2%;
     background-color: black;
     text-align: center;
@@ -70,9 +76,11 @@
       font-weight: 300;
       margin-left: 5%;
       margin-right: 5%;  
+      @include width-lg{
+        font-size: $fontSize500;
+      }
     }
     @include width-lg{
-      font-size: $fontSize500;
       width: 33.3%;
     }
   }

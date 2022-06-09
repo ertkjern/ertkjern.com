@@ -35,6 +35,11 @@ const Home: NextPage = () => {
           </div>
 
         <div className={styles.navigation}>
+        <div className={styles.navigationLinkWrapper}>
+            <Link href="/#about">
+              <a>Om</a>
+              </Link>
+          </div>
           <div className={styles.navigationLinkWrapper}>
             <Link href="/#projects">
               <a>Prosjekt</a>
@@ -43,11 +48,6 @@ const Home: NextPage = () => {
           <div className={styles.navigationLinkWrapper}>
             <Link href="/#CV">
               <a>CV</a>
-            </Link>
-          </div>
-          <div className={styles.navigationLinkWrapper}>
-            <Link href="/#about">
-              <a>Om</a>
             </Link>
           </div>
         </div>
