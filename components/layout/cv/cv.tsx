@@ -3,7 +3,7 @@ import CVExperience from '../../atoms/cv-experience/cv-experience';
 
 const CV = () => {
   return (
-    <div id="CV" className="container">
+    <div id="CV" className={`container ${styles.cv}`}>
       <h2 className={styles.heading}>CV</h2>
       <h3 className={styles.subHeading}>Arbeidserfaring</h3>
       <div className="row justify-content-between">

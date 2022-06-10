@@ -5,8 +5,8 @@ const About = () => {
     <div id="about" className={`container ${styles.about}`}>
       <h2>Hei! 👋</h2>
       <p>
-        Jeg er en systemutvikler fra Bergen 🌧️ som til vanlig jobber med å
-        utvikle fremtidens reiselivsløsninger i Adventure Tech ✈️.
+        Jeg er en systemutvikler fra Bergen som til vanlig jobber med å
+        utvikle fremtidens reiselivsløsninger i Adventure Tech.
       </p>
       <p>
         På fritiden snubler jeg ofte over en del hobby-prosjekter. Enten for
