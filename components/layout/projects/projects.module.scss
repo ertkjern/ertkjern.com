@@ -12,6 +12,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: space-between;
+    @include width-lg{
+        justify-content: center;
+    }
 }
 
 .description{
