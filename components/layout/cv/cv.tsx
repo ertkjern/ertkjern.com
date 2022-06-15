@@ -9,7 +9,7 @@ const CV = () => {
       <div className="row justify-content-between">
         <CVExperience
           name="Adventure Tech / Go Fjords"
-          fromDate={new Date('01/08/2019')}
+          fromDate={new Date('08/01/2019')}
           toDate={new Date()}
           jobTitle="Senior systemutvikler"
           jobType="Fulltid"
@@ -21,7 +21,7 @@ const CV = () => {
         <CVExperience
           name="Evry"
           fromDate={new Date('01/01/2017')}
-          toDate={new Date('01/08/2019')}
+          toDate={new Date('08/01/2019')}
           jobTitle="UX Utvikler"
           jobType="Fulltid"
           image={{
@@ -32,7 +32,7 @@ const CV = () => {
 
         <CVExperience
           name="Knowit"
-          fromDate={new Date('01/07/2015')}
+          fromDate={new Date('07/01/2015')}
           toDate={new Date('01/01/2017')}
           jobTitle="Systemutvikler"
           jobType="Fulltid"
@@ -71,8 +71,8 @@ const CV = () => {
 
         <CVExperience
           name="Handelshøyskolen i Bergen (BI)"
-          fromDate={new Date('01/07/2015')}
-          toDate={new Date('01/01/2017')}
+          fromDate={new Date('08/01/2020')}
+          toDate={new Date('01/01/2021')}
           jobTitle="Prosjektledelse"
           jobType=""
           image={{
