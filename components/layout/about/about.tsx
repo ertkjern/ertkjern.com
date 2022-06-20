@@ -9,8 +9,7 @@ const About = () => {
         utvikle fremtidens reiselivsløsninger i Adventure Tech.
       </p>
       <p>
-        På fritiden snubler jeg ofte over en del hobby-prosjekter. Enten for
-        egen vinning eller for å hjelpe andre.
+        På fritiden snubler jeg ofte over en del hobby-prosjekter. Som oftest mest på gøy eller for å hjelpe andre.
       </p>
       <p>
         Denne siden inneholder noen få prosjekter (langt i fra alle) jeg har

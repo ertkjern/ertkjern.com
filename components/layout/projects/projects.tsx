@@ -28,16 +28,6 @@ const Projects = () => {
             alt: 'Tell i vei logo',
           }}
         />
-
-        <Project
-          name="Bounce away"
-          url="https://apps.apple.com/no/app/bounce-away/id1510417330?platform=iphone"
-          shortDescription="Et spill inspirert av flappy birds. Endte opp alt for vanskelig for spilleren, men gav god innsikt i Unity3D."
-          image={{
-            src: '/images/projects/bounce_away.png',
-            alt: 'Bounce away logo',
-          }}
-        />
       </div>
     </div>
   );

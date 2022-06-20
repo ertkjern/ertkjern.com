@@ -14,7 +14,8 @@ const Home: NextPage = () => {
         <title>Ertkjern</title>
         <meta
           name="description"
-          content="Presentational website for Ertkjern"
+          title='Ertkjern.com'
+          content="CV og prosjekter."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
